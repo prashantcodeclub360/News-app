@@ -1,0 +1,53 @@
+* 
+{
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+body{
+ background-color: black;
+
+}
+
+
+.bg-custom-1 {
+  background-color:  #764ba2;
+}
+.bg-custom-2 {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.fa {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.card-bg
+{
+  border: solid 5px #764ba2;
+  color: black;
+  border-radius: 8rem;
+}
